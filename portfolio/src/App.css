@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.container-fluid a:hover{
+  color: orange;
+}
+
+.row{
+  margin: 10px;
+}
+
+.card:hover {
+  position: relative;
+  border-width: 3px;
+  border-color: red;
+}
+
+.card:hover>.ppt {
+  display: block;
+}
+
+.ppt{
+  display: none;
+  position: absolute;
+  background-color: #1EC2EB;
+  color: white;
+  border-radius: 10px 10px 10px 10px;
+  width: 100px;
+  height: 35px;
+  margin: 20px;
+  font-weight: bold;
+}
