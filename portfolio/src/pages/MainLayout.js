@@ -3,7 +3,9 @@ import React, { useEffect } from "react";
 
 const MainLayout = () => {
   useEffect(() => {
-    alert(`배운 시간이 길지는 않지만 여러 공부 많이 했습니다. \n다른 거 익히라고 하시면 익힐 준비 돼있습니다. 감사합니다.`)
+    alert(
+      `배운 시간이 길지는 않지만 여러 공부 많이 했습니다. \n다른 거 익히라고 하시면 익힐 준비 돼있습니다. 감사합니다.`
+    );
   }, []);
 
   return (
@@ -12,7 +14,7 @@ const MainLayout = () => {
       <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
           <a
-            href="https://docs.google.com/presentation/d/1hhuQeSyYPJJyufvI9oBnJg7CHuC3jIXNDlKBl_AzY-4/edit?usp=sharing"
+            href="/ppt/mini.pdf"
             target="blank"
             style={{ textDecoration: "none" }}
           >
@@ -32,12 +34,21 @@ const MainLayout = () => {
         </div>
         <div class="col">
           <a
-            href="https://www.canva.com/design/DAGD88aoI2o/qKP_fMt1sBowIevOI0IGRw/edit?utm_content=DAGD88aoI2o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+            href="/ppt/kiosk.pdf"
             target="blank"
             style={{ textDecoration: "none" }}
           >
             <div class="card">
-              <img src="/images/kiosk.png" class="card-img-top" alt="..." />
+              <iframe
+                class="card-img-top"
+                height="395"
+                src="https://www.youtube.com/embed/T4Q1MCM5Kyc?autoplay=1&mute=1"
+                title="키오스크 녹화"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
               <button type="button" class="btn btn-info" className="ppt">
                 PPT보기
               </button>
@@ -52,7 +63,7 @@ const MainLayout = () => {
         </div>
         <div class="col">
           <a
-            href="https://www.canva.com/design/DAGBI5xv7Yo/JkNumkXW0Ovke96fGUI7tA/edit?utm_content=DAGBI5xv7Yo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+            href="/ppt/health.pdf"
             target="blank"
             style={{ textDecoration: "none" }}
           >
@@ -73,12 +84,21 @@ const MainLayout = () => {
         </div>
         <div class="col">
           <a
-            href="https://www.canva.com/design/DAGD8y4IzzQ/_XwF-FIRqfo3TQGuYwRUKw/edit?utm_content=DAGD8y4IzzQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+            href="/ppt/alcohol.pdf"
             target="blank"
             style={{ textDecoration: "none" }}
           >
             <div class="card">
-              <img src="/images/alcohol.png" class="card-img-top" alt="..." />
+              <iframe
+                class="card-img-top"
+                height="395"
+                src="https://www.youtube.com/embed/uQVyiqXUuS8?autoplay=1&mute=1"
+                title="알콜프리"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
               <button type="button" class="btn btn-info" className="ppt">
                 PPT보기
               </button>

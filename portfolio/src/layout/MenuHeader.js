@@ -24,6 +24,11 @@ const MenuHeader = () => {
                   노션
                 </a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="https://github.com/HyounjinKim" target='blank'>
+                  깃허브
+                </a>
+              </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -56,29 +61,7 @@ const MenuHeader = () => {
                   </li>
                 </ul>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Api준비중
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="/">
-                      카카오로그인
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="/">
-                      카카오맵
-                    </a>
-                  </li>
-                </ul>
-              </li>
+              
             </ul>
           </div>
         </div>
