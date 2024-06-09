@@ -54,14 +54,8 @@ const MenuHeader = () => {
                       살빼조
                     </a>
                   </li>
-                  <li>
-                    <a class="dropdown-item" href="/code/alcohol">
-                      알콜프리
-                    </a>
-                  </li>
                 </ul>
               </li>
-              
             </ul>
           </div>
         </div>

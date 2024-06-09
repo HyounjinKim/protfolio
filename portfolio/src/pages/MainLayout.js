@@ -83,34 +83,75 @@ const MainLayout = () => {
           </a>
         </div>
         <div class="col">
-          <a
-            href="/ppt/alcohol.pdf"
-            target="blank"
-            style={{ textDecoration: "none" }}
-          >
-            <div class="card">
-              <iframe
-                class="card-img-top"
-                height="395"
-                src="https://www.youtube.com/embed/uQVyiqXUuS8?autoplay=1&mute=1"
-                title="알콜프리"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe>
-              <button type="button" class="btn btn-info" className="ppt">
-                PPT보기
-              </button>
-              <div class="card-body">
-                <h5 class="card-title">알콜 쇼핑몰</h5>
-                <p class="card-text">
-                  세번째 프로젝트까지 이어지는 두번째 정규프로젝트. 처음
-                  프론트와 협업한 프로젝트입니다.
-                </p>
-              </div>
+          <div class="card">
+            <iframe
+              class="card-img-top"
+              height="395"
+              src="https://www.youtube.com/embed/uQVyiqXUuS8?autoplay=1&mute=1"
+              title="알콜프리"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <button type="button" class="btn btn-info" className="ppt">
+              <a
+                href="http://front.khjtest.shop"
+                target="blank"
+                style={{ textDecoration: "none" }}
+              >
+                사이트
+              </a>
+            </button>
+            <button style={{ marginTop: "3.8rem" }} type="button" class="btn btn-info" className="ppt">
+              <a
+                href="http://alcoholback.khjtest.shop/swagger-ui/index.html"
+                target="blank"
+                style={{ textDecoration: "none" }}
+              >
+                스웨거 문서
+              </a>
+            </button>
+            <button style={{ marginTop: "6.4rem" }} type="button" class="btn btn-info" className="ppt">
+              <a
+                href="https://oasis-chiller-6ab.notion.site/2-3-3-a0c0c74cd30147ae95a368bd3a2cdc94?pvs=4"
+                target="blank"
+                style={{ textDecoration: "none" }}
+              >
+                노션
+              </a>
+            </button>
+            <button style={{ marginTop: "9rem" }} type="button" class="btn btn-info" className="ppt">
+              <a
+                href="/ppt/alcohol.pdf"
+                target="blank"
+                style={{ textDecoration: "none" }}
+              >
+                첫번째 PPT
+              </a>
+            </button>
+            <button
+              style={{ marginTop: "11.4rem" }}
+              type="button"
+              class="btn btn-info"
+              className="ppt"
+            >
+              <a
+                href="/ppt/alcohol2.pdf"
+                target="blank"
+                style={{ textDecoration: "none" }}
+              >
+                두번째 PPT
+              </a>
+            </button>
+            <div class="card-body">
+              <h5 class="card-title">알콜 쇼핑몰</h5>
+              <p class="card-text">
+                세번째 프로젝트까지 이어지는 두번째 정규프로젝트. 처음 프론트와
+                협업한 프로젝트입니다.
+              </p>
             </div>
-          </a>
+          </div>
         </div>
       </div>
     </>
